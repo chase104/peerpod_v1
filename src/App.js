@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import material from '@material-ui/icons'
 function App() {
   return (
     <div className="App">
