@@ -10,6 +10,21 @@
       "StackName": "amplify-peerpodv1-dev-90705",
       "StackId": "arn:aws:cloudformation:us-east-1:675995868173:stack/amplify-peerpodv1-dev-90705/fd330090-6d9b-11ed-8244-0ecc6e1008cb",
       "AmplifyAppId": "d2wfpg3q1lxdp8"
+    },
+    "categories": {
+      "function": {
+        "uploadUserAudio": {
+          "deploymentBucketName": "amplify-peerpodv1-dev-90705-deployment",
+          "s3Key": "amplify-builds/uploadUserAudio-516d4a626f473234364e-build.zip"
+        },
+        "searchUsers": {
+          "deploymentBucketName": "amplify-peerpodv1-dev-90705-deployment",
+          "s3Key": "amplify-builds/searchUsers-357a6f3753756d595567-build.zip"
+        }
+      },
+      "auth": {
+        "peerpodv1a34c91a7": {}
+      }
     }
   }
 }

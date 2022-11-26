@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/searchUsers": {
+      "name": "/searchUsers",
+      "lambdaFunction": "searchUsers",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/upload": {
+      "name": "/upload",
+      "lambdaFunction": "uploadUserAudio",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
