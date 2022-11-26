@@ -27,6 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+.login-logo{
+  width: 100px !important;
+}
+.page-heading{
+  font-size: 26px;
+  margin-bottom: 12px;
+}
 
 @keyframes App-logo-spin {
   from {

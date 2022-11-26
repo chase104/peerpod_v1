@@ -3,11 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Amplify from 'aws-amplify';
+import { AmplifyProvider } from '@aws-amplify/ui-react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// const theme = {
+//   name: 'peerpodtheme',
+//   tokens: {
+//     colors: {
+//       background: {
+//         primary: { value: "blue"},
+//         secondary: {value: "yellow"}
+//       }
+      
+//     }
+//   }
+// }
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <AmplifyProvider theme={theme}> */}
+      <App />
+    {/* </AmplifyProvider> */}
   </React.StrictMode>
 );
 
