@@ -83,7 +83,7 @@ function App() {
       'picture',
     ]} 
     variation="modal"
-    >      
+    >       
     {({signOut, user}) => (
     <Router className="root-container">
       <ContextProvider>
