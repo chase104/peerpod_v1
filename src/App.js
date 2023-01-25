@@ -81,7 +81,7 @@ function App() {
       'given_name',
       'family_name',
       'picture',
-    ]}
+    ]} 
     variation="modal"
     >      
     {({signOut, user}) => (
