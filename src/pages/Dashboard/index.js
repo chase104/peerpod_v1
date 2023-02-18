@@ -2,7 +2,9 @@ import React , { useContext }from 'react'
 import { DashboardContext } from '../../contexts';
 import Card from '../../components/card'
 import LoadingCard from '../../components/loadingCard';
-import './index.css'
+import './index.css';
+
+
 const Dashboard = () => {
     let {
         dashboardPodcasts,
